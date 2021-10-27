@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header {
+    height: 125px;
+    background-color: rgb(216, 216, 216);
+    justify-content: left;
+}
+
+#logo-box {
+    height: 75px;
+    width: 75px;
+    margin-left: 25px;
+    background-color: rgb(91, 143, 220);
+    
+}
+
+article {
+    height: 330px;
+}
+
+p {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body > section {
+    height: 225px;
+}
+
+#sec1 {
+    background-color: rgb(91, 143, 220);
+}
+
+#sec2 {
+    background-color: rgb(123, 224, 195);
+}
+
+#sec3 {
+    background-color: rgb(194, 231, 145);
+}
+
+#sec4 {
+
+    justify-content: right;
+    align-items: end;
+    background-color: rgb(245, 231, 82);
+
+}
+
+#question-circle {
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+#question-mark {
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
